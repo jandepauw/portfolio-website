@@ -1,0 +1,169 @@
+.navMain .logo {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+
+.navMain {
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  text-align: right;
+}
+
+.navMain .nav a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #444;
+}
+
+.navMain .nav a:hover {
+  border-bottom: 10px solid lightblue;
+  color: white;
+}
+
+.navMain .nav ul {
+  margin-right: 20px;
+}
+
+.navMain .nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+
+.youtube-con {
+  width: 100%;
+  height: 100vh;
+}
+
+.youtube-con iframe,
+.youtube-con object,
+.youtube-con embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.header-title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.featured {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.feature-column-1, .feature-column-2, .feature-column-3 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 25px;
+}
+
+#feature-image {
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+}
+
+#feature-image img {
+  width: 50px;
+  height: 50px;
+}
+
+.hotItemGallery {
+  column-count: auto;
+  column-width: 300px;
+  column-gap: 0;
+}
+
+.item {
+
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+}
+
+.quote {
+  width: 100%;
+  padding: 50px 0;
+  background: #111;
+  color: ghostwhite;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #222;
+}
+
+.social-media-icons {
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer .social-media-icons .facebook {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #3B5998;
+  padding: 10px;
+}
+
+.footer .social-media-icons .twitter {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #1DA1F2;
+  padding: 10px;
+}
+
+.footer .social-media-icons .linkedin {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #0077B5;
+  padding: 10px;
+}
+
+.footer .social-media-icons .instagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #E4405F;
+  padding: 10px;
+}
+
+.footer .social-media-icons .youtube {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #CD201F;
+  padding: 10px;
+}
+
+.clear {
+  clear:both;
+}
